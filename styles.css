@@ -35,36 +35,6 @@ button {
   font-size: 12px;
 }
 .footerbox {
-<<<<<<< Updated upstream
-        background-color: #000000;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #ffffff;
-    }
-    .form {
-      display: inline-block; 
-      text-align: left;
-      width: 250px;
-    }
-
-    #icon images {
-        background-color: #f7f7f7;
-    }
-    #socialicons {
-        height:20px;
-        width: 2%;
-    }
-    .form-item input{
-        margin-left: 6em;
-    }
-    textarea{
-        margin-left: 6em;
-    }
-    .form-item label {
-        position: absolute;
-    }
-    
-    @media only screen and (max-width: 600px){ }
-=======
   background-color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   color: #FFFFFF;
@@ -111,6 +81,7 @@ textarea {
 @media only screen and (max-width: 600px) {
 }
 
+
 .topnav {
     overflow: hidden;
  }
@@ -127,4 +98,51 @@ textarea {
     background-color: #ddd;
     color: #ffffff;
 }
->>>>>>> Stashed changes
+
+button {
+        background-color: #000000; 
+        border: solid;
+        color: #f4bd00;
+        padding: 10px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+      }
+
+.footerbox {
+        background-color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+    }
+    .form {
+      display: inline-block; 
+      text-align: left;
+      width: 250px;
+    }
+
+    #icon images {
+        background-color: #f7f7f7;
+    }
+    #socialicons {
+        height:20px;
+        width: 2%;
+    }
+    .form-item input{
+        margin-left: 6em;
+    }
+    textarea{
+        margin-left: 6em;
+    }
+    .form-item label {
+        position: absolute;
+    }
+    
+    @media only screen and (max-width: 600px){ }
+
+
+    .contact {
+        padding: 0em;
+        margin: 0em;
+        height: 100%;
+    }
