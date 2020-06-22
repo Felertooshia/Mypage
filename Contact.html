@@ -2,7 +2,7 @@
 
 <html lang="en">
     <head>
-        <title>Roshi Profile</title>
+        <title>Contact</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="Keywords" content="HTML, CSS, Webdesign, Roshi, Ettehadi, Roshanak, Roshi Ettehadi">
@@ -24,7 +24,7 @@
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="Contact"> 
         <header>
             <div id="headerwrapper" style="position: relative;">
                 <div class="topnav">
@@ -33,14 +33,27 @@
                     <a href="Projects.html">Projects</a>
                     <a href="Contact.html">Contact</a>
                 </div>
-                <div id="headertext">  
-                        <h1 class="mainheading">Hello, I'm</h1>
-                        <h1 class="mainheading">Roshi Ettehadi</h1>
-                        <h6 class="heading">Front End Developer</h6>
-                        <button type="button">Contact me!</button>
-                </div>
+        </header>   
+        <div class="footerbox">
+        <h3 id="underline">Contact</h3>
+    <div class="form">
+        <form action="https://formspree.io/mwkrqlyl" method="POST">
+            <div class="form-item">
+            <label for="name"> Name</label>
+            <input type="text" id="name" name="name">
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="email">
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send!</button>
             </div>
-            <img id= "portraitimage" src="images/Roshi-portrait.jpg" alt="Portrait" style="p">   
-        </header>
+        </form>
+    </div>
+    <div>
+    <img id="socialicons" src="images/FB.png" alt="FB">
+    <img id="socialicons" src="images/Instagram.png" alt="Instagram">
+    <img id="socialicons" src="images/linkedin.png" alt="Linkedin">
+    </div>
     <footer style="text-align: center;"> <p>by Roshi</p> </footer>
+</body>
 </html>

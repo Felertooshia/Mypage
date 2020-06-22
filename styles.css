@@ -66,3 +66,10 @@ button {
     }
     
     @media only screen and (max-width: 600px){ }
+
+
+    .contact {
+        padding: 0em;
+        margin: 0em;
+        height: 100%;
+    }
