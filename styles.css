@@ -7,10 +7,6 @@ body {
   background-color: #000000;
   font-family: sans-serif;
   color: #FFFFFF;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
   margin-top: auto;
   padding-bottom: 20px;
 }
@@ -77,11 +73,11 @@ button {
   background-color: #000000;
   border: solid;
   color: #F4BD00;
-  padding: 10px 28px;
+  padding: 10px 36px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 0.8em;
 }
 
 footer {
@@ -91,14 +87,12 @@ footer {
   justify-content: space-between;
 }
 
-#footer {
-  justify-content: center;
-  text-align: center;
-  flex-wrap: wrap;
-}
-
 #icon images {
   background-color: #F7F7F7;
+}
+
+body #Wrapper {
+  display: flex;
 }
 
 @media only screen and (max-width: 600px) {

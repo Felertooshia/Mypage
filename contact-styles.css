@@ -6,7 +6,6 @@ html {
 body {
   background-color: #000000;
   color: #fdfffcff;
-  flex-direction: column;
   font-family: sans-serif;
 }
 
@@ -116,13 +115,6 @@ button {
 
 header {
   margin: 0px;
-}
-
-#footer {
-  display: inline-block;
-  text-decoration: none;
-  width:100%;
-  text-align:center;
 }
 
 #underline {
