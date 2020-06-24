@@ -7,7 +7,7 @@ body {
   background-color: #000000;
   color: #fdfffcff;
   flex-direction: column;
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
 }
 
 nav {
@@ -48,6 +48,13 @@ form {
   display: flex;
   flex-direction: column;
   margin-top: 0px;
+}
+
+.form-item {
+  display: block;
+  text-align: left;
+  vertical-align: middle;
+  margin-bottom: 30px;
 }
 
 #socials {
@@ -109,4 +116,21 @@ button {
 
 header {
   margin: 0px;
+}
+
+#footer {
+  display: inline-block;
+  text-decoration: none;
+  width:100%;
+  text-align:center;
+}
+
+#underline {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #F4BD00;
+  text-decoration-thickness: 20%;
+}
+nav .link:hover {
+  color: #ffffff;
 }
