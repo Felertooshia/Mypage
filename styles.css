@@ -79,6 +79,7 @@ h1 {
   margin-left: 200px;
   text-align: left;
   margin-right: 180px;
+  font-size: 18px;
 }
 
 #profilesection {
@@ -108,5 +109,14 @@ body #Wrapper {
   display: flex;
 }
 
+.column {
+  flex:50%;
+  padding:10px;
+  height:300px;
+}
+.row {
+  display: flex;
+  clear: both;
+}
 @media only screen and (max-width: 600px) {
 }
