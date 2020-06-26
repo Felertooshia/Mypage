@@ -1,5 +1,9 @@
 
 
+html {
+  height: 100%;
+  font-size: 2vw;
+}
 h3 {
   flex-wrap: wrap;
   margin-top: 0.5em;
@@ -21,15 +25,15 @@ form {
   display: block;
   text-align: left;
   vertical-align: middle;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   width: 100%;
 }
 
 #socials {
   display: flex;
   justify-content: center;
-  margin-bottom: -0.5em;
-  margin-top: 19em;
+  margin-bottom: 1em;
+  margin-top: 15em;
   margin-left: -48px;
 }
 
