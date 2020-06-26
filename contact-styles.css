@@ -147,7 +147,7 @@ textarea {
 @media only screen and (min-width: 1000px) {
   h3 {
     flex-wrap: wrap;
-    margin-top: 0.5em;
+    margin-top: 0px;
     color: #fdfffcff;
     text-align: left;
     font-size: 28px;
@@ -163,15 +163,15 @@ textarea {
   #socials {
     display: flex;
     justify-content: center;
-    margin-bottom: 2em;
+    margin-bottom: 0;
     margin-top: 12em;
     margin-left: -48px;
   }
-    #socials img {
+  #socials img {
     width: 45px;
     height: 45px;
     margin: 10px;
-    bottom: 20px;
+    bottom: 0px;
   }
   #Content {
     margin-left: 80px;
