@@ -142,6 +142,11 @@ ol {
     line-height: 1.5em;
   }
 
+  #projects {
+    width: 290px;
+  }
+
+
 @media only screen and (min-width: 767px) {
   .topnav {
    font-size: 18px;
@@ -209,6 +214,10 @@ ol {
     width: 300px;
     margin-left:0px;
   }
+
+  #projects {
+    width: 400px;
+  }
 }
 @media only screen and (min-width: 1000px) {
   .topnav {
@@ -226,7 +235,7 @@ ol {
     clear: both;
   }
   h4 {
-    font-size: 2em;
+    font-size: 1em;
     margin-top: 1.9em;
     margin-bottom: .8em;
     line-height: 1; 
@@ -277,5 +286,8 @@ ol {
   }
   #images {
     width: 500px;
+  }
+  #projects {
+    width: 450px;
   }
 }
