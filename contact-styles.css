@@ -38,7 +38,7 @@ h3 {
   margin-top: 0.5em;
   color: #fdfffcff;
   text-align: left;
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 2em;
   padding-bottom: 2em;
 }
@@ -62,7 +62,8 @@ form {
   display: flex;
   justify-content: center;
   margin-bottom: -0.5em;
-  margin-top: -0.5em;
+  margin-top: 15em;
+  margin-left: -48px;
 }
 
 #socials img {
