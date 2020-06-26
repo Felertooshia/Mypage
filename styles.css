@@ -143,6 +143,9 @@ ol {
   }
 
 @media only screen and (min-width: 767px) {
+  .topnav {
+   font-size: 18px;
+  }
   body #Wrapper3 {
     width: 80%;
     text-align: left;
@@ -208,6 +211,9 @@ ol {
   }
 }
 @media only screen and (min-width: 1000px) {
+  .topnav {
+    font-size: 18px;
+   }
   body #Wrapper3 {
     width: 100%;
     text-align: left;
