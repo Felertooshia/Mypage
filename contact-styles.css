@@ -10,7 +10,7 @@ h3 {
   color: #fdfffcff;
   text-align: left;
   font-size: 22px;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   padding-bottom: 2em;
 }
 
@@ -32,8 +32,8 @@ form {
 #socials {
   display: flex;
   justify-content: center;
-  margin-bottom: 1em;
-  margin-top: 15em;
+  margin-bottom: -0.5em;
+  margin-top: 19em;
   margin-left: -48px;
 }
 
@@ -98,3 +98,43 @@ header {
   width: 100%;
   margin-top:3em;
 }
+
+@media only screen and (min-width: 768px) {
+  h3 {
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+    color: #fdfffcff;
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 1.5em;
+    padding-bottom: 2em;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  #socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    margin-top: 12em;
+    margin-left: -48px;
+  }
+    #socials img {
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    bottom: 20px;
+  }
+  #Content {
+    margin-left: 80px;
+    text-align: left;
+    margin-right: 10px;
+    width: 90%;
+    margin-top:3em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
