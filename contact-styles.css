@@ -164,7 +164,7 @@ textarea {
     display: flex;
     justify-content: center;
     margin-bottom: 0;
-    margin-top: 12em;
+    margin-top: 5em;
     margin-left: -48px;
   }
   #socials img {
@@ -189,5 +189,10 @@ textarea {
   button {
     font-size: 18px;
     padding: 8px 30px;
+  }
+  body #Wrapper4 {
+    width: 100%;
+    text-align: center;
+    position: fixed;
   }
 }
