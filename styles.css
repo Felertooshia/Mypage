@@ -84,17 +84,21 @@ h4 {
   font-size: 18px;
 }
 
-footer {
-  background-color: #000000;
+#footer1 {
+  /* background-color: #000000; */
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
   justify-content: space-between;
-  font-size: 1.4em;
+  font-size: 1.2em;
   bottom: 0px;
   position: fixed;
-  margin: 20px 0px 20px;
+  /* margin: 20px 0px 20px; */
   width: 100%;
   text-align: center;
+  display: flex;
+  position: fixed;
+  padding: 0.75rem;
+  bottom: 0;
 }
 
 body #Wrapper {

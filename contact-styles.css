@@ -58,7 +58,7 @@ textarea {
   margin-bottom: 1em;
   background: #ffffff;
   color: black;
- }
+}
 
 input {
   background: #ffffff;
@@ -93,7 +93,20 @@ header {
   text-align: left;
   margin-right: 60px;
   width: 100%;
-  margin-top:3em;
+  margin-top: 3em;
+}
+
+#footer2 {
+  /* background-color: #000000; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  justify-content: space-between;
+  font-size: 1.4em;
+  bottom: 0px;
+  position: fixed;
+  /* margin: 20px 0px 20px; */
+  width: 100%;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -130,18 +143,18 @@ header {
     text-align: left;
     margin-right: 10px;
     width: 90%;
-    margin-top:3em;
+    margin-top: 3em;
   }
   input,
-textarea {
-  font-size: 18px;
-  padding: 1em;
-  color: black;
- }
- button {
-  font-size: 18px;
-  padding: 8px 30px;
-}
+  textarea {
+    font-size: 18px;
+    padding: 1em;
+    color: black;
+  }
+  button {
+    font-size: 18px;
+    padding: 8px 30px;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -178,14 +191,14 @@ textarea {
     text-align: left;
     margin-right: 10px;
     width: 90%;
-    margin-top:3em;
+    margin-top: 3em;
   }
   input,
   textarea {
     font-size: 18px;
     padding: 1em;
     color: black;
-   }
+  }
   button {
     font-size: 18px;
     padding: 8px 30px;
