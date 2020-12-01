@@ -88,15 +88,13 @@ h4 {
   /* background-color: #000000; */
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-  justify-content: space-between;
   font-size: 1.2em;
   bottom: 0px;
   position: fixed;
   /* margin: 20px 0px 20px; */
   width: 100%;
   text-align: center;
-  display: flex;
-  position: fixed;
+  /* position: fixed; */
   padding: 0.75rem;
   bottom: 0;
 }
@@ -148,6 +146,79 @@ ol {
 
 #projects {
   width: 290px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .topnav {
+    font-size: 18px;
+  }
+  body #Wrapper3 {
+    width: 100%;
+    text-align: left;
+    margin-left: 10%;
+    padding-right: 40px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    clear: both;
+  }
+  h4 {
+    font-size: 1em;
+    margin-top: 1.9em;
+    margin-bottom: 0.8em;
+    line-height: 1;
+  }
+  body #Wrapper2 {
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    padding-right: 40px;
+  }
+  p {
+    font-size: 25px;
+  }
+  ol {
+    font-size: 25px;
+    line-height: 2em;
+  }
+  #reverse {
+    flex-direction: row-reverse;
+  }
+  body #Wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    text-align: center;
+    position: fixed;
+    margin-left: 10%;
+  }
+  #portraitimage {
+    width: 480px;
+    height: 850px;
+  }
+  h1 {
+    font-size: 3em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    line-height: 1;
+    text-align: left;
+    margin-right: -10px;
+  }
+  h2 {
+    font-size: 2em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    line-height: 1;
+    text-align: left;
+    margin-right: -10px;
+  }
+  #images {
+    width: 500px;
+  }
+  #projects {
+    width: 450px;
+  }
 }
 
 @media only screen and (min-width: 767px) {
@@ -220,77 +291,5 @@ ol {
 
   #projects {
     width: 400px;
-  }
-}
-@media only screen and (min-width: 1000px) {
-  .topnav {
-    font-size: 18px;
-  }
-  body #Wrapper3 {
-    width: 100%;
-    text-align: left;
-    margin-left: 10%;
-    padding-right: 40px;
-  }
-  .row {
-    display: flex;
-    flex-direction: row;
-    clear: both;
-  }
-  h4 {
-    font-size: 1em;
-    margin-top: 1.9em;
-    margin-bottom: 0.8em;
-    line-height: 1;
-  }
-  body #Wrapper2 {
-    width: 80%;
-    text-align: left;
-    margin-left: 10%;
-    padding-right: 40px;
-  }
-  p {
-    font-size: 25px;
-  }
-  ol {
-    font-size: 25px;
-    line-height: 2em;
-  }
-  #reverse {
-    flex-direction: row-reverse;
-  }
-  body #Wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    text-align: center;
-    position: fixed;
-    margin-left: 10%;
-  }
-  #portraitimage {
-    width: 480px;
-    height: 850px;
-  }
-  h1 {
-    font-size: 3em;
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
-    line-height: 1;
-    text-align: left;
-    margin-right: -10px;
-  }
-  h2 {
-    font-size: 2em;
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
-    line-height: 1;
-    text-align: left;
-    margin-right: -10px;
-  }
-  #images {
-    width: 500px;
-  }
-  #projects {
-    width: 450px;
   }
 }
