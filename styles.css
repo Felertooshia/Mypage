@@ -10,7 +10,6 @@ body {
   background-size: cover;
   font-family: sans-serif;
   color: #ffffff;
-  /* margin-top: auto; */
 }
 
 .topnav {
@@ -63,14 +62,14 @@ h2 {
 body #Wrapper2 {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 80%;
   text-align: left;
   margin-left: 10%;
 }
 
 #portraitimage {
-  width: 490px;
-  height: 650px;
+  width: 398px;
+  height: 492px;
   align-items: right;
 }
 
@@ -80,13 +79,11 @@ body #Wrapper2 {
 
 h3 {
   flex-wrap: wrap;
-  /* margin-top: 0.5em; */
   color: #fdfffcff;
   text-align: left;
   font-size: 22px;
-  /* margin-bottom: 1.5em;
-  padding-bottom: 2em; */
 }
+
 body #Wrapper1 {
   width: 80%;
   text-align: left;
@@ -113,11 +110,7 @@ body #Wrapper1 {
 p {
   font-size: 23px;
   margin: 12.6px 0;
-  /* margin-bottom: -100px; */
-}
-
-#list {
-  font-size: 23px;
+  text-align: justify;
 }
 
 ul {
@@ -149,13 +142,6 @@ h5 {
   text-decoration-thickness: 20%;
 }
 
-#Aboutme {
-  margin-left: 200px;
-  text-align: left;
-  margin-right: 180px;
-  font-size: 18px;
-}
-
 #footer1 {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
@@ -163,14 +149,6 @@ h5 {
   font-size: 0.7em;
   text-align: center;
   padding-top: -8em;
-}
-
-body #Wrapper2 {
-  display: flex;
-  width: 80%;
-  text-align: left;
-  margin-left: 10%;
-  padding-right: 40px;
 }
 
 body #Wrapper3 {
@@ -199,7 +177,7 @@ body #Wrapper3 {
 }
 
 ol {
-  font-size: 14px;
+  font-size: 23px;
   line-height: 1.5em;
 }
 
@@ -283,6 +261,12 @@ button {
   font-size: 23px;
   padding: 7px 30px;
   margin-bottom: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 header {
@@ -290,111 +274,51 @@ header {
 }
 
 #Content {
-  /* margin-left: 30px; */
   text-align: center;
-  /* margin-right: 60px; */
   width: 100%;
   margin-top: 1em;
+}
+
+hr {
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+  border-color: #f4bd00;
 }
 
 @media only screen and (max-width: 1200px) {
 }
 
 @media only screen and (max-width: 900px) {
-}
-
-@media only screen and (max-width: 750px) {
-}
-
-@media only screen and (max-width: 600px) {
-}
-
-@media only screen and (max-width: 480px) {
-  .topnav {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-
-  #logo {
-    margin-top: -15px;
-    width: 70px;
-    height: 70px;
-  }
-
   h1 {
-    font-size: 80px;
-    margin-top: 0.2em;
-    margin-bottom: 0.4em;
-    line-height: 1;
-    text-align: left;
+    font-size: 36px;
   }
 
   h2 {
-    font-size: 60px;
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
-    line-height: 1;
-    text-align: left;
-  }
-
-  body #Wrapper2 {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    text-align: left;
-    margin-left: 10%;
-  }
-
-  #portraitimage {
-    width: 490px;
-    height: 650px;
-    align-items: right;
+    font-size: 32px;
   }
 
   #headertext {
-    margin-left: 50px;
+    margin-left: -10px;
+  }
+
+  body #Wrapper2 {
+    width: 90%;
+  }
+
+  #portraitimage {
+    width: 344px;
+    height: 423px;
   }
 
   h3 {
     flex-wrap: wrap;
-    text-align: left;
     font-size: 22px;
-  }
-  body #Wrapper1 {
-    width: 80%;
-    text-align: left;
-    margin-left: 10%;
-    padding-right: 40px;
-  }
-
-  #reverse {
-    flex-direction: row-reverse;
-  }
-  .row {
-    display: flex;
-    flex-direction: row;
-    clear: both;
-  }
-
-  .column {
-    flex: 100%;
-    padding: 10px;
-    height: auto;
-    font-size: 23px;
   }
 
   p {
-    font-size: 23px;
+    font-size: 19px;
     margin: 12.6px 0;
-  }
-
-  #list {
-    font-size: 23px;
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
   }
 
   h4 {
@@ -405,37 +329,7 @@ header {
   }
 
   h5 {
-    flex-wrap: wrap;
-    margin-top: 0em;
-    color: #fdfffcff;
-    text-align: center;
-    font-size: 23px;
-    margin-bottom: 2em;
-    padding-bottom: 2em;
-  }
-
-  #Aboutme {
-    margin-left: 200px;
-    text-align: left;
-    margin-right: 180px;
-    font-size: 18px;
-  }
-
-  #footer1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    padding-bottom: 2em;
-    font-size: 0.7em;
-    text-align: center;
-    padding-top: -8em;
-  }
-
-  body #Wrapper2 {
-    display: flex;
-    width: 80%;
-    text-align: left;
-    margin-left: 10%;
-    padding-right: 40px;
+    font-size: 20px;
   }
 
   body #Wrapper3 {
@@ -452,7 +346,7 @@ header {
   }
 
   ol {
-    font-size: 14px;
+    font-size: 19px;
     line-height: 1.5em;
   }
 
@@ -463,75 +357,369 @@ header {
     width: 100%;
     border-radius: 8px;
   }
-  #socials {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
-    margin-top: 0em;
-    margin-left: 0px;
-    align-items: center;
-  }
 
   #socials img {
-    width: 45px;
-    height: 45px;
-    margin: 10px;
-    bottom: 0px;
-  }
-
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -60px;
-    width: 100%;
-  }
-
-  .form-item {
-    display: block;
-    text-align: center;
-    margin-bottom: 10px;
-    width: 100%;
+    width: 30px;
+    height: 30px;
   }
 
   input,
   textarea {
-    font-size: 1em;
-    border-radius: 3px;
-    width: 30%;
-    padding: 0.1em;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 50%;
+    padding: 0.3em;
     margin-bottom: 0.3em;
-    background: #ffffff;
-    color: black;
-  }
-
-  input {
-    background: #ffffff;
   }
 
   label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 23px;
-    letter-spacing: 1px;
+    font-size: 18px;
   }
 
   button {
-    background-color: #000000;
-    border: solid;
-    color: #f4bd00;
+    font-size: 18px;
+  }
+}
+}
+
+@media only screen and (max-width: 750px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  #headertext {
+    margin-left: -20px;
+  }
+
+  body #Wrapper2 {
+    width: 90%;
+  }
+
+  #portraitimage {
+    width: 278px;
+    height: 344px;
+  }
+
+  h3 {
+    flex-wrap: wrap;
+    font-size: 22px;
+  }
+  #reverse {
+    flex-direction: column-reverse;
+  }
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .column {
+    flex: 100%;
+    padding: 10px;
+    height: auto;
     font-size: 23px;
-    padding: 7px 30px;
-    margin-bottom: 5px;
   }
 
-  header {
-    margin: 0px;
+  p {
+    font-size: 19px;
+    margin: 12.6px 0;
   }
 
-  #Content {
-    text-align: center;
+  h4 {
+    font-size: 25px;
+    margin-top: 1.9em;
+    margin-bottom: 0.4em;
+    line-height: 1;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  body #Wrapper3 {
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    padding-right: 40px;
+    margin-top: -1em;
+  }
+
+  #images {
+    width: 180px;
+    margin-left: 50px;
+  }
+
+  ol {
+    font-size: 19px;
+    line-height: 1.5em;
+  }
+
+  #projects {
+    display: block;
+    width: 250px;
+    -webkit-transition: ease-in-out;
     width: 100%;
-    margin-top: 1em;
+    border-radius: 8px;
+  }
+
+  #socials img {
+    width: 30px;
+    height: 30px;
+  }
+
+  input,
+  textarea {
+    font-size: 18px;
+    border-radius: 5px;
+    width: 50%;
+    padding: 0.3em;
+    margin-bottom: 0.3em;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+}
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  #logo {
+    margin-top: -15px;
+    width: 50px;
+    height: 50px;
+  }
+
+  #headertext {
+    margin-left: -20px;
+  }
+
+  body #Wrapper2 {
+    width: 90%;
+  }
+
+  #portraitimage {
+    width: 278px;
+    height: 344px;
+  }
+
+  h3 {
+    flex-wrap: wrap;
+    font-size: 22px;
+  }
+  #reverse {
+    flex-direction: column-reverse;
+  }
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .column {
+    flex: 100%;
+    padding: 10px;
+    height: auto;
+    font-size: 23px;
+  }
+
+  p {
+    font-size: 19px;
+    margin: 12.6px 0;
+  }
+
+  h4 {
+    font-size: 25px;
+    margin-top: 1.9em;
+    margin-bottom: 0.4em;
+    line-height: 1;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  body #Wrapper3 {
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    padding-right: 40px;
+    margin-top: -1em;
+  }
+
+  #images {
+    width: 180px;
+    margin-left: 50px;
+  }
+
+  ol {
+    font-size: 19px;
+    line-height: 1.5em;
+  }
+
+  #projects {
+    display: block;
+    width: 250px;
+    -webkit-transition: ease-in-out;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  #socials img {
+    width: 30px;
+    height: 30px;
+  }
+
+  input,
+  textarea {
+    font-size: 18px;
+    border-radius: 5px;
+    width: 50%;
+    padding: 0.3em;
+    margin-bottom: 0.3em;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .topnav {
+    font-size: 14px;
+  }
+
+  #logo {
+    margin-top: -15px;
+    width: 50px;
+    height: 50px;
+  }
+
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  body #Wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    width: 100%;
+    text-align: center;
+  }
+
+  #headertext {
+    margin-left: -50px;
+  }
+
+  #portraitimage {
+    width: 278px;
+    height: 344px;
+    align-items: center;
+  }
+
+  h3 {
+    flex-wrap: wrap;
+    font-size: 22px;
+  }
+  #reverse {
+    flex-direction: column-reverse;
+  }
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .column {
+    flex: 100%;
+    padding: 10px;
+    height: auto;
+    font-size: 23px;
+  }
+
+  p {
+    font-size: 19px;
+    margin: 12.6px 0;
+  }
+
+  h4 {
+    font-size: 25px;
+    margin-top: 1.9em;
+    margin-bottom: 0.4em;
+    line-height: 1;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  body #Wrapper3 {
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    padding-right: 40px;
+    margin-top: -1em;
+  }
+
+  #images {
+    width: 180px;
+    margin-left: 50px;
+  }
+
+  ol {
+    font-size: 19px;
+    line-height: 1.5em;
+  }
+
+  #projects {
+    display: block;
+    width: 250px;
+    -webkit-transition: ease-in-out;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  #socials img {
+    width: 30px;
+    height: 30px;
+  }
+
+  input,
+  textarea {
+    font-size: 18px;
+    border-radius: 5px;
+    width: 50%;
+    padding: 0.3em;
+    margin-bottom: 0.3em;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 18px;
   }
 }
