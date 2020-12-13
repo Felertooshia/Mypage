@@ -115,7 +115,11 @@ p {
 
 ul {
   margin: 0;
-  padding: 0;
+  padding: 20px;
+}
+
+ul.b {
+  list-style-type: square;
 }
 
 h4 {
@@ -176,7 +180,7 @@ body #Wrapper3 {
   opacity: 0.5;
 }
 
-ol {
+li {
   font-size: 23px;
   line-height: 1.5em;
 }
@@ -345,7 +349,7 @@ hr {
     margin-left: 50px;
   }
 
-  ol {
+  li {
     font-size: 19px;
     line-height: 1.5em;
   }
@@ -379,7 +383,6 @@ hr {
   button {
     font-size: 18px;
   }
-}
 }
 
 @media only screen and (max-width: 750px) {
@@ -452,7 +455,7 @@ hr {
     margin-left: 50px;
   }
 
-  ol {
+  li {
     font-size: 19px;
     line-height: 1.5em;
   }
@@ -486,7 +489,6 @@ hr {
   button {
     font-size: 18px;
   }
-}
 }
 
 @media only screen and (max-width: 600px) {
@@ -565,7 +567,7 @@ hr {
     margin-left: 50px;
   }
 
-  ol {
+  li {
     font-size: 19px;
     line-height: 1.5em;
   }
@@ -688,7 +690,7 @@ hr {
     margin-left: 50px;
   }
 
-  ol {
+  li {
     font-size: 19px;
     line-height: 1.5em;
   }
